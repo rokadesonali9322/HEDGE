@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  /* overflow-x: hidden !important; */
+}
+html {
+  scroll-behavior: smooth;
+}
+.scroll-transition {
+  transition: transform 0.8s ease-in-out;
+}
+section {
+  height: 100vh;
+  width: 98.9vw;
+}
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.home-section {
+  width: 1440px;
+  height: 905px;
+  background: linear-gradient(283.11deg, #a3a3a3 4.76%, #bfbfbf 65.97%),
+    linear-gradient(0deg, #ffffff, #ffffff);
+}
+.navigation {
+  width: 100%;
+  height: 96px;
+  display: flex;
+  background: #ffffff;
+  padding: 24px 80px 24px 80px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0.996212363243103px 9.325654029846191px 0px #564e3806;
+  box-shadow: 0px 2.3940367698669434px 22.410844802856445px 0px #564e3808;
+  box-shadow: 0px 4.507758617401123px 42.197628021240234px 0px #564e380a;
+}
+
+.navigation .logo {
+  width: 270.57px;
+  height: 40px;
+}
+
+.navigation .contact {
+  width: 170px;
+  height: 48px;
+  background-color: white;
+  border-radius: 4px;
+  color: #383838;
+  font-family: 'Integral CF';
+  font-size: 14px;
+  font-weight: 100 !important;
+  line-height: 17.34px;
+  letter-spacing: 0px;
+  text-align: center;
+  border: 0.5px solid #80808080;
+}
+.home {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden !important;
+  background: linear-gradient(283.11deg, #a3a3a3 4.76%, #bfbfbf 65.97%),
+    linear-gradient(0deg, #ffffff, #ffffff);
+}
+.home-content {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.home .home-img {
+  width: 679px;
+  height: 437.32px;
+  padding-top: 160px;
+  padding-left: 10px;
+}
+.home .home-img img {
+  width: 679px;
+  height: 437.32px;
+}
+.home-left-content {
+  width: 619px;
+  height: 418px;
+  padding-top: 124px;
+  padding-left: 30px;
+}
+.home-left-content h1 {
+  text-transform: uppercase;
+  font-size: 88px;
+  font-weight: 400;
+  line-height: 118px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  font-family: 'Integral CF';
+}
+.home-left-content h2 {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 91px;
+  letter-spacing: 0em;
+  font-weight: 400;
+  text-align: left;
+  color: white;
+  font-family: 'Integral CF';
+  /* padding-bottom: 8rem; */
+}
+.EMI {
+  height: 57rem;
+  width: 100%;
+  overflow: hidden !important;
+  padding-bottom: 2rem;
+  background: linear-gradient(279.46deg, #e0e0e0 9.91%, #f7f7f7 79.75%);
+}
+.EMI-content {
+  width: 100%;
+  height: auto;
+  font-family: 'League Spartan', sans-serif;
+}
+.EMI-bg-img {
+  width: 100%;
+  height: 920px;
+  background: url('../css/asset/EMIBg.svg');
+  background-repeat: no-repeat;
+  background-size: 145% 145%;
+  background-position: center center;
+  opacity: 0.8;
+  position: relative;
+  left: 8rem;
+  /* background-color: #178a86; */
+}
+.EMI-content h2 {
+  width: 40rem;
+  height: 100%;
+  margin-left: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 81px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #252525;
+  /* background-color: #178a86; */
+}
+.EMI-leftContent {
+  margin-top: 3rem;
+  position: relative;
+  right: 3rem;
+}
+.EMI-leftContent .EMI-card,
+.EMI-leftContent .EMI-firstCard {
+  width: 520px;
+  padding: 24px 32px 24px 32px;
+  border-radius: 16px;
+  gap: 8px;
+  border: none;
+  display: block;
+  margin: 1rem auto;
+  /* background-color: white; */
+}
+.EMI-leftContent .EMI-card {
+  height: 183px;
+}
+
+.EMI-leftContent .EMI-firstCard {
+  height: 138px;
+}
+.EMI-leftContent .card p {
+  width: 456px;
+  height: 90px;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+/* Introcution-HEDGE */
+.Introcution-HEDGE {
+  width: 100%;
+  /* height: 85%; */
+  height: auto;
+  display: block;
+  margin: 4rem auto;
+  overflow-x: hidden;
+  font-family: 'League Spartan', sans-serif;
+}
+.intro-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: (599.35px);
+  height: (305.61px);
+}
+.Introcution-HEDGE p {
+  font-family: 'League Spartan', sans-serif;
+  width: 168px;
+  height: 46px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #6b6b6b;
+}
+.Introcution-HEDGE img {
+  width: 599.35px;
+  height: 125.61px;
+}
+.Introcution-HEDGE .card-section {
+  width: 85%;
+  height: auto;
+  display: block;
+  margin: 5rem auto;
+}
+.Introcution-HEDGE .card {
+  width: 397.33px;
+  height: 415px;
+  padding: 40px 24px 40px 24px;
+  border-radius: 12px;
+  border: 0.75px;
+  gap: 24px !important;
+  background: #f1f1f1;
+  border: 0.75px solid #dadada;
+}
+.Introcution-HEDGE .card-body {
+  padding: 0 !important;
+  font-family: 'League Spartan', sans-serif;
+}
+.Introcution-HEDGE .intro-img {
+  width: 100%;
+  /* padding: 1rem; */
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.Introcution-HEDGE .card img {
+  width: 200px;
+  height: 200px;
+}
+.Introcution-HEDGE .card h5 {
+  font-family: 'League Spartan', sans-serif;
+  width: 349.33px;
+  height: 80px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+
+.Introcution-HEDGE .logo {
+  width: 599.35px;
+  height: 88.61px;
+}
+/* contact us */
+.contact-us {
+  width: 100%;
+  font-family: 'League Spartan', sans-serif;
+}
+.contact-us h4 {
+  width: (376px);
+  height: (45px);
+  text-align: center;
+  gap: 8px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #6b6b6b;
+}
+
+.contact-us .form-card {
+  width: 622px;
+  height: 600px;
+  padding: 3rem;
+  border-radius: 32px;
+  background-color: #f1f1f1;
+  border: 1px solid #dadada;
+}
+.contact-us .form-group {
+  margin: 0.5rem !important;
+}
+.form-card .star {
+  font-family: League Spartan;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #178a86;
+}
+.form-card label {
+  width: (510px);
+  height: (24px);
+  gap: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #383838;
+  font-family: 'Integral CF';
+  text-transform: uppercase;
+}
+.form-card input {
+  width: (510px);
+  height: (56px);
+  padding: 14px;
+  border-radius: 4px;
+  border: 1px;
+  border: 1px solid #dadada;
+  background-color: white;
+}
+.form-card input::placeholder {
+  width: 510px;
+  height: 112px;
+}
+.form-card input::placeholder,
+.form-card textarea::placeholder {
+  font-family: 'League Spartan', sans-serif;
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px;
+  height: 24px;
+  gap: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #292f36 !important;
+  opacity: 0.4 !important;
+}
+
+.contact-us .contact-form-btn button {
+  width: 170px;
+  height: 48px;
+  display: block;
+  margin: 2rem auto;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 0.8rem 2rem;
+  color: #ffffff;
+  font-family: 'Integral CF';
+  background: #646464;
+}
+
+.contact-us .form-card textarea {
+  resize: none;
+}
+.footer-contact {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden !important;
+}
+/* footer */
+.footer-con {
+  background: #525252;
+  height: 94vh;
+  width: 100%;
+  position: relative;
+  bottom: 24rem;
+  z-index: -888;
+  overflow-x: hidden !important;
+}
+.bootom-footer {
+  width: 100%;
+  font-family: 'League Spartan', sans-serif;
+  position: absolute;
+  bottom: 3.5rem !important;
+  gap: 32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bootom-footer p {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding-top: 30px;
+  font-family: 'League Spartan', sans-serif;
+}
+.bootom-footer .footer-icon {
+  width: 15rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: none;
+}
+.bootom-footer .logo {
+  width: 189.4px;
+  height: 28px;
+  color: white !important;
+}
+.bootom-footer .style-icon {
+  height: 48px;
+  width: 48px;
+  background: #383838;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-twitter {
+  margin-right: 3.5px;
+}
+.fa-instagram {
+  margin-right: 4.5px;
+}
+.style-icon i {
+  width: 9.33px;
+  height: 16px;
+  color: #f6f4ee;
+}
+@media (max-width: 576px) {
+  .navigation {
+    width: 100%;
+    height: 58px;
+    padding: 12px 25px 12px 25px !important;
+  }
+  .navigation .logo {
+    width: 109.2px;
+    height: 16.14px;
+  }
+  .navigation .contact {
+    width: 121px;
+    height: 34px;
+  }
+  .navigation .contact {
+    width: 121px;
+    height: 38px;
+    background-color: white;
+    border-radius: 4px;
+    color: #383838;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    border: 0.5px solid #80808080;
+  }
+  .home-section {
+    width: 1440px;
+    height: 760px;
+  }
+  .home .home-content {
+    width: 100%;
+  }
+  .home .home-img {
+    width: 679px;
+    height: 225.42px;
+    padding-top: 80px !important;
+  }
+  .home .home-img img {
+    width: 679px;
+    height: 437.32px;
+  }
+  .home-left-content {
+    width: 619px;
+    height: 262px;
+    /* padding-top: 124px; */
+    padding-left: 30px;
+  }
+  .home .home-img {
+    padding-top: 3rem;
+  }
+  .home .home-img img {
+    width: 350px;
+    height: 225.42px;
+  }
+  .home-left-content h1 {
+    width: 325px;
+    height: 140px;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .home-left-content h2 {
+    width: 325px;
+    height: 122px;
+    font-family: Integral CF;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  /* Emi */
+  .EMI {
+    width: 100%;
+    height: 56rem;
+    padding: 40px 1px 52px 1px;
+  }
+
+  .EMI-content {
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .EMI-content {
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: auto;
+  }
+  .EMI-leftContent .card {
+    width: 21rem;
+    height: 8rem;
+    padding: 1.5rem;
+  }
+  .EMI-bg-img {
+    width: 100%;
+    height: 920px;
+    background: url('../css/asset/EMIBg.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    opacity: 0.8;
+    position: relative;
+    left: 0rem;
+  }
+  .EMI-content h2 {
+    width: 100%;
+    height: 100%;
+    margin-left: 1rem;
+    height: 93px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    color: #252525;
+    padding-top: 3rem;
+  }
+  .EMI-leftContent {
+    margin-top: 3rem;
+    position: relative;
+    left: 1rem;
+  }
+  .EMI-leftContent .EMI-card,
+  .EMI-leftContent .EMI-firstCard {
+    width: 100%;
+    border-radius: 16px;
+    gap: 8px;
+    border: none;
+    display: block;
+    margin: 1rem auto;
+    padding: 20.06px;
+    border-radius: 12px;
+    gap: 5.49px;
+  }
+  .EMI-leftContent .EMI-card {
+    height: 124.6px;
+  }
+
+  .EMI-leftContent .EMI-firstCard {
+    height: 96px;
+  }
+  .EMI-leftContent .EMI-firstCard p,
+  .EMI-leftContent .EMI-card p {
+    width: 100%;
+    height: 56px;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  /* .EMI-leftContent .EMI-firstCard p {
+    height: 90px;
+  } */
+  /* Introcution-HEDGE */
+  .Introcution-HEDGE {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 3.5rem auto;
+  }
+
+  .Introcution-HEDGE .card-section {
+    width: 83%;
+    height: auto;
+    display: block;
+    margin: 5rem auto;
+  }
+
+  .Introcution-HEDGE .card {
+    width: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .Introcution-HEDGE .logo {
+    width: 327px;
+    height: 48px;
+  }
+  .Introcution-HEDGE .card img {
+    padding-top: 20px;
+    width: 184px;
+    height: 184px;
+  }
+  .Introcution-HEDGE .card h5 {
+    width: 235.99px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
+  .Introcution-HEDGE p {
+    width: 168px;
+    height: 38px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  /* contact */
+  .contact-us {
+    font-family: 'League Spartan', sans-serif;
+  }
+  .contact-us h4 {
+    width: (251px);
+    height: (30px);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #6b6b6b;
+    text-align: center !important;
+  }
+
+  .contact-us .form-card {
+    width: 328px;
+    height: 590px;
+    display: block;
+    margin: auto;
+    padding: 2rem !important;
+  }
+
+  .form-card label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #383838;
+  }
+  .footer-con {
+    background: #525252;
+    height: 100vh;
+    bottom: 22rem;
+    overflow-x: hidden !important;
+  }
+
+  .bootom-footer {
+    width: 100%;
+    height: auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .bootom-footer .bootom-logo {
+    width: 110.7px;
+    height: 16.37px;
+    padding: 0px, 0px, 0px, 0px;
+  }
+  .bootom-footer .footer-icon {
+    width: 200px;
+    height: 97px;
+    gap: 24px;
+    position: relative;
+    bottom: 4rem;
+  }
+  .bootom-footer .style-icon {
+    height: 40px;
+    width: 40px;
+    background: #383838;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bootom-footer p {
+    position: relative;
+    top: 5rem;
+  }
+}
+
+@media (min-width: 579px) {
+  .navigation {
+  }
+}
